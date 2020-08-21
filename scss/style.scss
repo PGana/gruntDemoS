@@ -1,0 +1,55 @@
+/* Page  1: Home page css*/
+$title-color:slategray;
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-size: 14px;
+    background-color: whitesmoke;
+}
+
+.main-container {
+    background-color: white;
+    margin: 0 10%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background-color: white;
+    height: 90px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d9d9d9;
+    line-height: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0;
+    color: #454444;
+}
+.email {
+    color: lightseagreen;
+    text-decoration-line: underline;
+}
+.phone {
+    color: lightslategray;
+    font-weight: 400;
+}
+
+.logo {
+    color: #0063ae;
+}
+
+.title {
+    color: $title-color;
+    font-weight: 400;
+    font-size: 14px;
+}
+

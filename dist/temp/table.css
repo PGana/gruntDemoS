@@ -1,0 +1,15 @@
+/**---------------- Page 2 : Table Css ----------------------------*/
+.table {
+  border-collapse: collapse;
+  width: 100%; }
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 10px 15px;
+  border: 1px solid #e9e9e9; }
+
+.table th {
+  width: 180px;
+  color: slategray;
+  font-weight: 400; }
